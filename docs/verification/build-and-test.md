@@ -13,6 +13,20 @@
 | Quartz 프로덕션 빌드     | 입력 22개, 출력 214개, 종료 코드 0             |
 | 루트 `node_modules`      | 없음                                           |
 
+## GitHub Pages 배포
+
+| 항목          | 확인 결과                                                                                            |
+| ------------- | ---------------------------------------------------------------------------------------------------- |
+| 기준 커밋     | `6e124c7f1fc532b15bcc094400b936cd3ca512f7`                                                           |
+| Actions 실행  | [31301971347](https://github.com/seihwanMoon/moon-tech/actions/runs/31301971347), attempt 2, success |
+| Pages 방식    | GitHub Actions workflow, HTTPS enforced                                                              |
+| 공개 주소     | `https://seihwanmoon.github.io/moon-tech/`, HTTP 200                                                 |
+| Source Note   | `source-notes/anthropic-effective-agents-youtube`, HTTP 200                                          |
+| 피드·사이트맵 | `index.xml`, `sitemap.xml`, 각각 HTTP 200                                                            |
+| 확인 시각     | 2026-08-09 16:51:25 +09:00                                                                           |
+
+최초 Actions 실행은 Pages를 활성화하기 전에 시작되어 설정 단계에서 실패했다. 저장소 Pages를 `workflow` 방식으로 활성화한 뒤 같은 실행을 재시도했고, build와 deploy 작업이 모두 성공했다.
+
 ## 실행 명령
 
 ```powershell

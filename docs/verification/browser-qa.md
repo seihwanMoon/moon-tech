@@ -40,3 +40,10 @@
 - `home-mobile-light.png`, `home-mobile-explorer-open.png`
 - `source-note-desktop-light.png`, `source-note-desktop-dark.png`
 - `source-note-tablet-light.png`, `source-note-mobile-light.png`
+
+## 실제 배포 화면
+
+- 2026-08-09 16:51 KST에 GitHub Pages 공개 주소를 설치된 Chrome으로 다시 검사했다.
+- 홈과 Source Note는 HTTP 200이며 콘솔 warning/error와 page error는 0개다.
+- 실제 배포 화면에서도 상단·왼쪽 탐색, 한 줄 푸터, Source Note 오른쪽 레일과 모바일 스크롤 잠금 계약이 모두 통과했다.
+- 증거: `live-home-desktop.png`, `live-source-note-desktop.png`, `live-home-mobile-menu.png`

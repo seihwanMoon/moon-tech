@@ -69,8 +69,8 @@
 ## 8. 배포
 
 - [x] GitHub Actions Pages 워크플로 작성
-- [ ] `seihwanMoon/moon-tech`에 커밋·푸시
-- [ ] GitHub Pages 소스 설정
-- [ ] Actions 성공 확인
-- [ ] `https://seihwanMoon.github.io/moon-tech` 실제 응답 확인
-- [ ] 최종 문서와 Tasklist 완료 처리
+- [x] `seihwanMoon/moon-tech`에 커밋·푸시
+- [x] GitHub Pages 소스 설정
+- [x] Actions 성공 확인
+- [x] `https://seihwanMoon.github.io/moon-tech` 실제 응답 확인
+- [x] 최종 문서와 Tasklist 완료 처리
