@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "source-note-brief": {
+      "source": "./plugins/source-note-brief",
+      "resolved": "plugins/source-note-brief",
+      "commit": "local"
+    }
+  }
+}

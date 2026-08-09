@@ -1,0 +1,67 @@
+{
+  "name": "source-note-brief",
+  "version": "0.1.0",
+  "description": "A source-first one-page brief component for Quartz v5",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "test": "node --experimental-loader ./test-loader.mjs --import tsx --test src/schema.test.ts src/index.test.tsx",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run test",
+    "verify:package": "npm run build && node scripts/verify-package.mjs"
+  },
+  "peerDependencies": {
+    "preact": "^10.0.0"
+  },
+  "dependencies": {
+    "@quartz-community/types": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "esbuild-sass-plugin": "^3.6.0",
+    "preact": "^10.28.2",
+    "sass": "^1.97.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "quartz": {
+    "name": "source-note-brief",
+    "displayName": "Source Note Brief",
+    "description": "Renders a source-first one-page brief from source-note frontmatter.",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "category": "component",
+    "dependencies": [],
+    "defaultOrder": 40,
+    "defaultEnabled": true,
+    "components": {
+      "SourceNoteBrief": {
+        "displayName": "Source Note Brief",
+        "description": "Source type, provenance, summary, interpretation, and actions.",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 40
+      }
+    }
+  }
+}
