@@ -6,6 +6,15 @@
 - 공개 사이트: <https://seihwanMoon.github.io/moon-tech>
 - 문의: `skimooon@naver.com`
 
+## 프로젝트 문서
+
+- [Handoff](HANDOFF.md)
+- [개발 완료 기록](docs/project/development-summary.md)
+- [확정 요구사항](docs/project/confirmed-requirements.md)
+- [운영 가이드](docs/project/operations.md)
+- [검증 기록](docs/verification/build-and-test.md)
+- [전체 Tasklist](TASKLIST.md)
+
 ## Vault 원본과 로컬 런타임
 
 Google Drive의 `G:\My Drive\Quartz5`가 Vault 원본이자 Git 작업 폴더입니다. 원본에는 Markdown, 설정, 템플릿, 비공개 조사 자료가 있으므로 `node_modules/`, Quartz 캐시, 생성된 `public/`을 저장하지 않습니다.
